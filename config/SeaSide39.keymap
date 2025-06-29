@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans  &kp F9  &kp F10  &kp F11  &kp F12                      &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS
-&trans  &kp F5  &kp F6   &kp F7   &kp F8                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH
-&trans  &kp F1  &kp F2   &kp F3   &kp F4                       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp COLON
-&trans  &trans  &trans   &trans   &trans   &trans      &trans  &kp NUMBER_0                                               &kp PERIOD
+&trans  &kp F9  &kp F10  &kp F11  &kp F12                      &kp N7            &kp NUMBER_8       &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &kp F5  &kp F6   &kp F7   &kp F8                       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_6  &kp EQUAL             &kp NON_US_BACKSLASH
+&trans  &kp F1  &kp F2   &kp F3   &kp F4                       &kp SEMICOLON     &kp SQT            &kp SLASH     &kp QUESTION          &kp ENTER
+&trans  &trans  &trans   &trans   &trans   &trans      &trans  &kp NUMBER_0                                                             &kp RIGHT_SHIFT
             >;
         };
 
@@ -94,10 +94,10 @@
 
         SCROLL {
             bindings = <
-&trans        &trans        &kp ENTER  &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&trans        &trans        &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&trans        &trans        &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &trans     &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &kp LC(DOWN)  &kp LC(UP_ARROW)                          &trans
+&trans        &trans        &kp ENTER  &trans  &trans                                            &trans            &trans         &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+&trans        &trans        &trans     &trans  &trans                                            &trans            &kp PAGE_UP    &trans              &kp LC(TAB)          &trans
+&trans        &trans        &trans     &trans  &trans                                            &kp HOME          &kp PAGE_DOWN  &kp END             &trans               &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &trans     &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &kp LC(DOWN)  &kp LC(UP_ARROW)                                                          &trans
             >;
         };
 
