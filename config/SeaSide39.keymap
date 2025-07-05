@@ -92,7 +92,7 @@
 
         SCROLL {
             bindings = <
-&trans        &trans        &trans  &trans  &trans                                      &trans      &trans         &kp LC(LS(TAB))  &kp LC(TAB)  &trans
+&trans        &trans        &trans  &trans  &trans                                      &trans      &trans         &kp LS(LG(TAB))  &kp LG(TAB)  &trans
 &trans        &trans        &trans  &trans  &trans                                      &trans      &kp PAGE_UP    &trans           &kp LC(TAB)  &trans
 &trans        &trans        &trans  &trans  &trans                                      &kp HOME    &kp PAGE_DOWN  &kp END          &trans       &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &trans  &kp DELETE                                               &trans
